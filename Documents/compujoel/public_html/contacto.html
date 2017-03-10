@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Fotmulario de contacto</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="css/estilos.css">
+    </head>
+    <body>
+        <div>
+            <h1> contáctanos </h1>
+            <form>
+                <div>
+                    <label for="nombre"> Nombre: </label>
+                    <input type="text" id="nombre"/>
+                <div>
+                    <label for="nombre"> E-mail: </label>
+                    <input type="text" id="email"/>
+                </div>
+                    
+                <div>
+                    <label for="nombre"> Qué necesitas?: </label>
+                    <select id="asunto" name="asunto">
+                    <option value="" selected="selected">--selecciona--</option>
+                    <option value="comentar">Quiero hacer un comentario</option>
+                    <option value="info">Quiero tener informacion de sus combos</option>
+                    <option value="entrega">Pedir costos de combos</option>
+                    <option value="otro">otro</option>
+                    </select> 
+                </div>
+                    <div>
+                        <label for="msg"> Mensaje</label>
+                        <textarea id="msg" cols="50" rows="10"></textarea>
+                    </div>
+                    <div class="boton">
+                        <button type="submit"> Enviar mensaje</button>
+                    </div>
+                </div>
+                </form>
+        </div>
+        
+    </body>
+</html>
