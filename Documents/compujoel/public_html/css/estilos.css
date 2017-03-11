@@ -32,15 +32,18 @@ ul li{
     border-radius: 10px;
     color: lightslategrey;
 }
+/*alineacion del menu*/
 #menu {
     text-align: center;
 }
+/*agregando tama;o de borde,alineacion de texto, tipo de letra, tama;o de letraal cuerpo*/
 #cuerpo{
     border-radius: 5px;
     text-align: center;
     font-family: Century Gothic;
     font-size: 26px;
 }
+/*agregando color de fondo, alineacion, tipo de letra y tama;o al pie de pagina*/
 #pie{
     background: #F5ECCE;
     text-align: center;
@@ -64,6 +67,8 @@ form{
     border: 1px solid #000;
     border-radius: 5px;
     background-color: bisque;
+    font-family: Century Gothic;
+    font-weight: bold;
 }
 form div {
     margin-top: 1em;
@@ -97,4 +102,7 @@ textarea {
 }
 #fondoformulario {
     background-color: lightyellow;
+}
+.boton{
+    margin-left: 205px
 }
