@@ -1,0 +1,53 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 17, 2017, 7:08:56 PM
+    Author     : 00139234
+*/
+#cabecera{
+    /*Aplicando tipo, alineacion y tamano de letra a la cabecera*/
+    font-family: Century Gothic;                      
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    color: brown;
+}
+#cabeceratwo{
+    /*Aplicando tipo, alineacion y tamano de letra a la cabecera*/
+    font-family: Century Gothic;
+    font-size: 40px;
+    font-weight: lighter;
+    text-align: center;
+}
+ul li{
+    list-style-type: none;
+    font-family: Century Gothic;
+    background: #F5ECCE;
+    display: inline;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    color: lightslategrey;
+}
+/*alineacion del menu*/
+    
+#menu {
+    text-align: center;
+}
+/*agregando tama;o de borde,alineacion de texto, tipo de letra, tama;o de letraal cuerpo*/
+#parrafo{
+    border-radius: 5px;
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 26px;
+}
+/*agregando color de fondo, alineacion, tipo de letra y tama;o al pie de pagina*/
+#pie{
+    background: #F5ECCE;
+    text-align: center;
+    font-family: Century Gothic;
+    font-size: 18px;
+}
