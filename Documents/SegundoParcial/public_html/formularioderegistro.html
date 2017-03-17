@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+    </head>
+          <body id="fondoformulario">
+        <div>
+            <h1 class="centralizado"> Contáctanos </h1>
+            <form>
+                <div>
+                    <label for="nombre"> Nombre: </label>
+                    <input type="text" id="nombre"/>
+                <div>
+                    <label for="nombre"> E-mail: </label>
+                    <input type="text" id="email"/>
+                </div>
+                    
+                <div>
+                    <label for="nombre"> Qué necesitas? </label>
+                    <select id="asunto" name="asunto">
+                    <option value="" selected="selected">--selecciona--</option>
+                    <option value="usuario">Quiero afilairme como cliente preferncial</option>
+                    <option value="afiliarse">Solo quiero recibir información sobre ofertas</option>
+                    <option value="info">Me interesa todo tipo de información</option>
+                    <option value="otro">otro</option>
+                    </select> 
+                </div>
+                    <div>
+                        <label for="msg"> Mensaje</label>
+                        <textarea id="msg" cols="50" rows="10"></textarea>
+                    </div>
+                    <div class="boton">
+                        <button type="submit"> Enviar mensaje</button>
+                    </div>
+                </div>
+                </form>
+        </div>
+    </body>
+</html>
